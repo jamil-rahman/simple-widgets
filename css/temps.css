@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+header {
+    background-color: #131921;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 36px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro {
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#temperature-converter {
+    text-align: center;
+    background-color: white;
+    padding: 50px;
+    border-radius: 16px;
+}
+
+.label_container {
+    text-align: center;
+    margin: 20px 20px;
+}
+
+.converter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#result-container {
+    margin-top: 15px;
+}
+
+#converted-result {
+    font-size: 18px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 60px;
+    box-sizing: border-box;
+    margin-top: auto;
+    width: 100%;
+}

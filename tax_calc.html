@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tax.css">
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Not used to using Farhenheit as a Temperature Unit?</h1>
+            <p>Reminiscence your memories and precious moments in this soothing image carousel</p>
+        </section>
+
+        <!-- TAX Calculator -->
+        <section id="tax-calculator">
+            <h2>Tax Calculator 📊</h2>
+            <p>Calculate the total price including tax for your items.</p>
+
+            <label for="province-select">Select Province:</label>
+            <select id="province-select">
+                <option value="AB">Alberta</option>
+                <option value="BC">British Columbia</option>
+                <option value="MB">Manitoba</option>
+                <option value="NB">New Brunswick</option>
+                <option value="NL">Newfoundland and Labrador</option>
+                <option value="NS">Nova Scotia</option>
+                <option value="NT">Northwest Territories</option>
+                <option value="NU">Nunavut</option>
+                <option value="ON">Ontario</option>
+                <option value="PE">Prince Edward Island</option>
+                <option value="QC">Quebec</option>
+                <option value="SK">Saskatchewan</option>
+                <option value="YT">Yukon</option>
+            </select>
+
+            <label for="num-items">Number of Items <span id="warning">(Max 10)</span>:</label>
+            <input type="number" id="num-items" min="1" max="10">
+
+
+            <div id="items-inputs">
+                <!-- Price inputs -->
+            </div>
+
+            <button id="calculate-btn">Proceed</button>
+
+            <div id="result">
+                <!-- Recipt -->
+            </div>
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Widget World | For Everyone ❤️</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/tax.js"></script>
+</body>
+<!-- Mohd Jamilur Rahmans Shaan | 8930128 -->
+
+</html>

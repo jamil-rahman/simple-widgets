@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/suggestions.css">
+    <title>Widget World: Suggestions</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="suggestions-form">
+            <h1>Have a Widget Idea?</h1>
+            <p>I would love to hear your thoughts! Share your widget idea and I will try to implement on my next update!
+                😀</p>
+
+                <!-- Suggestions Form -->
+            <form id="suggestion-form">
+                <label for="name">Name:<span>*</span></label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:<span>*</span></label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="contact">Contact Number (Optional):</label>
+                <input type="tel" id="contact" name="contact">
+
+                <label for="idea">Your Widget Idea:<span>*</span></label>
+                <textarea id="idea" name="idea" rows="5" required></textarea>
+
+                <button type="submit" id="submit-btn">Submit</button>
+            </form>
+
+            <!-- Notification div for successful submission -->
+            <div id="notification"></div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Widget World | For Everyone ❤️</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/suggestions.js"></script>
+</body>
+<!-- Mohd Jamilur Rahmans Shaan | 8930128 -->
+
+</html>
